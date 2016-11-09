@@ -24,6 +24,8 @@ module.exports = {
     fallback: [path.join(__dirname, '../node_modules')],
     alias: {
       'vue$': 'vue/dist/vue',
+      'jquery': 'jquery/src/jquery',
+      'jquery.pep': path.resolve(__dirname, '../bower_components/jquery.pep/src/jquery.pep'),
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
       'components': path.resolve(__dirname, '../src/components')

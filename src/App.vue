@@ -1,22 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <dragger></dragger>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
+import Dragger from './components/Dragger'
 export default {
   name: 'app',
   components: {
-    Hello
+    Dragger
   }
 }
 </script>
 
 <style>
+html, body {
+  overflow: hidden;
+  background-color: #6f8197;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
